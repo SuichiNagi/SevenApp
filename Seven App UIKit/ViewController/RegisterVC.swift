@@ -239,8 +239,8 @@ class RegisterVC: UIViewController {
     
     lazy var repeatPasswordTextfield: SSTextField = {
         let repeatPasswordTextfield = SSTextField(underLineColor: .secondaryLabel)
+        repeatPasswordTextfield.placeholder = "please enter confirm password"
         repeatPasswordTextfield.isSecureTextEntry = true
-        passwordTextfield.placeholder = "please enter confirm password"
         return repeatPasswordTextfield
     }()
     
